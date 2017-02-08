@@ -5,12 +5,16 @@ var namespace = "http://www.w3.org/2000/svg"
 // You need to use at least 3 different types of shape.
 // Remember, for the shapes to show up on the canvas, you'll need to CALL the function.
 function createFirstScene() {
+var trey = Math.random
  makeEllipse(100, 40, 30, 40, "silver", 1)
  makeCircle(90, 20, 2, "red", 1)
  makeCircle(110, 20, 2, "red", 1)
  makeRect(85, 60, 30, 5, "white", 1)
  alert("Where is Sarah Connor")
  alert("Quick I Must Kill Her Before They Make Those 2 bad Sequels")
+ if(trey <  0.5){
+   makeRect(20, 50, 20, 20, "black", 1)  
+ }
 }
 
 
