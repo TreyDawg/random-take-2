@@ -5,7 +5,7 @@ var namespace = "http://www.w3.org/2000/svg"
 // You need to use at least 3 different types of shape.
 // Remember, for the shapes to show up on the canvas, you'll need to CALL the function.
 function createFirstScene() {
-var trey = Math.random
+var trey = Math.random()
  makeEllipse(100, 40, 30, 40, "silver", 1)
  makeCircle(90, 20, 2, "red", 1)
  makeCircle(110, 20, 2, "red", 1)
@@ -22,8 +22,8 @@ var trey = Math.random
 // You need to use at least 3 different types of shape.
 // Remember, for the shapes to show up on the canvas, you'll need to CALL the function.
 function createSecondScene() {
-    var arnold = Math.random
- makeEllipse(100, 40, 30, ,40, "black", 1)  
+    var arnold = Math.random()
+ makeEllipse(100, 40, 30, 40, "black", 1)  
  makeCircle(90, 20, 2, "orange",1)
  makeCircle(110, 20, 2, "orange", 1)
  makeRect(85, 60, 30, 5, "yellow", 1)
@@ -38,7 +38,7 @@ function createSecondScene() {
 // You need to use at least 3 different types of shape.
 // Remember, for the shapes to show up on the canvas, you'll need to CALL the function.
 function createThirdScene() {
-    var saraConnor = Math.random
+    var saraConnor = Math.random()
   makeEllipse(100, 40, 30, 40, "gray", 1) 
   makeCircle(90, 20, 2, "green", 1)
   makeCircle(110, 20, 2, "green", 1)
@@ -47,6 +47,7 @@ function createThirdScene() {
   if(saraConnor < 0.5){
   makeImage("https://theiapolis.com/d8/hES/i10H/k9/l119/wZK/image41.jpg", 20, 50, 20, 20, 1)
   
+}
 }
 
 
